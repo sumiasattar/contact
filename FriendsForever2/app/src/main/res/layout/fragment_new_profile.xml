@@ -1,0 +1,138 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+    android:id="@+id/relatielayout1"
+    android:layout_marginTop="6dp"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_below="@+id/imageview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_alignParentTop="true"
+        android:id="@+id/mname"
+        android:hint="username"
+        android:paddingLeft="20dp"
+        android:drawableRight="@drawable/ic_account_circle_black_24dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+<RelativeLayout
+android:id="@+id/relatielayout3"
+android:layout_marginTop="4dp"
+android:gravity="center"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_below="@+id/relatielayout2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:layout_alignParentTop="true"
+    android:hint="Email"
+    android:id="@+id/memail"
+    android:paddingLeft="20dp"
+    android:layout_width="match_parent"
+    android:drawableRight="@drawable/ic_email_black_24dp"
+    android:textSize="16sp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
+<RelativeLayout
+android:id="@+id/relatielayout2"
+android:layout_marginTop="4dp"
+android:gravity="center"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_below="@+id/relatielayout1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:layout_alignParentTop="true"
+    android:hint="Password"
+    android:id="@+id/mpassword"
+    android:paddingLeft="20dp"
+    android:layout_width="match_parent"
+    android:drawableRight="@drawable/ic_enhanced_encryption_black_24dp"
+    android:textSize="16sp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
+<RelativeLayout
+android:id="@+id/relatielayout4"
+android:layout_marginTop="4dp"
+android:gravity="center"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_below="@+id/relatielayout3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:layout_alignParentTop="true"
+    android:hint="Phone"
+    android:id="@+id/mphone"
+    android:paddingLeft="20dp"
+    android:drawableRight="@drawable/ic_phone_black_24dp"
+    android:layout_width="match_parent"
+    android:textSize="16sp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
+<RelativeLayout
+android:id="@+id/relatielayout5"
+android:layout_marginTop="4dp"
+android:gravity="center"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_below="@+id/relatielayout4"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:layout_alignParentTop="true"
+    android:hint="Address"
+    android:id="@+id/madress"
+    android:drawableRight="@drawable/ic_place_black_24dp"
+    android:paddingLeft="20dp"
+    android:layout_width="match_parent"
+    android:textSize="16sp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
+
+<Button
+android:id="@+id/mphoto"
+android:textColor="@color/white"
+android:layout_marginTop="3dp"
+android:layout_marginRight="20dp"
+android:layout_marginLeft="100dp"
+android:textSize="8sp"
+
+android:background="@color/pur"
+android:text="Add a profile photo"
+android:layout_below="@+id/relatielayout5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+<ImageView
+android:layout_width="200dp"
+android:layout_height="200dp"
+android:id="@+id/mimgvw"
+android:visibility="gone"
+android:layout_below="@+id/photo"/>
+<Button
+android:id="@+id/msave"
+android:textColor="@color/white"
+android:background="@color/pur"
+android:layout_marginTop="5dp"
+android:fontFamily="sans-serif-condensed"
+android:text="Save profile"
+android:textSize="15sp"
+android:layout_marginRight="30dp"
+android:layout_marginLeft="30dp"
+android:layout_below="@+id/imgvw"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+
+    </LinearLayout>

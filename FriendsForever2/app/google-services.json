@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1080402961906",
+    "firebase_url": "https://eternal-sunset-223904.firebaseio.com",
+    "project_id": "eternal-sunset-223904",
+    "storage_bucket": "eternal-sunset-223904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080402961906:android:e849d9ec8e85a47d",
+        "android_client_info": {
+          "package_name": "friendsforever.fyp.app.friendsforever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080402961906-9qu137tgdo9bmqeeod1j6cqhj5prh1l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqooCTkzRdkHU11wadDk9v0p0n-qbzCh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080402961906-9qu137tgdo9bmqeeod1j6cqhj5prh1l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
